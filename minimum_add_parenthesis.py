@@ -13,3 +13,10 @@ class Solution(object):
                     unmatched_close = unmatched_close + 1
         
         return unmatched_open + unmatched_close
+
+sol = Solution()
+print(sol.minAddToMakeValid("())"))
+print(sol.minAddToMakeValid("((("))
+print(sol.minAddToMakeValid(")("))
+print(sol.minAddToMakeValid("()"))
+print(sol.minAddToMakeValid("()))(("))
