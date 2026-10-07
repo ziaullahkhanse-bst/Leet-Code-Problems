@@ -14,6 +14,7 @@ class Solution(object):
         
         return unmatched_open + unmatched_close
 
+
 sol = Solution()
 print(sol.minAddToMakeValid("())"))
 print(sol.minAddToMakeValid("((("))
